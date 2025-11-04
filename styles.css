@@ -1,0 +1,43 @@
+/* css styles */
+
+/* FINAL FIX: Target the specific image container class and add bottom margin */
+.quarto-post .thumbnail {
+  /*  */
+  margin-bottom: 2% !important; 
+}
+
+/* Custom class for indenting an entire block */
+.paragraph-indent {
+  /* Pushes the entire paragraph 3em (about 3 characters) from the left */
+  margin-left: 1em; 
+  /* Optional: Adjusts the right margin as well, for symmetry */
+  margin-right: 1em; 
+  /* Optional: Add some padding or margin above/below to make it stand out */
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* 3. Controlling the Snippet/Description Size */
+.listing-description a {
+  font-size: 0.9rem !important; /* Slightly reduces the body text size */
+
+  margin-top: 0em !important; 
+  margin-bottom: 0em !important; 
+  display: block !important; /* Required for margins to work on inline <a> tag */
+  line-height: 1.4 !important;
+}
+
+
+
+/* Target the container for the categories */
+.listing-categories {
+  /* INCREASE the space above the category badges */
+  margin-top: 0.5rem !important; /* Set this value higher (e.g., 1rem or 1.5rem) to increase the gap */
+}
+
+/* Ensure consistency in Dark Mode */
+[data-bs-theme="dark"] .listing-categories {
+  margin-top: 0.5rem !important; 
+}
+
+
