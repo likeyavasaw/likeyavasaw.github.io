@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -179,7 +179,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SUNaTg==">ICZN <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tm9tZW5jbGF0dXJl">Nomenclature <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -209,7 +209,38 @@ window.Quarto = {
 
 <div id="listing-blog" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Tm9tZW5jbGF0dXJlJTJDSUNaTg==" data-listing-date-sort="1766764800000" data-listing-file-modified-sort="1766842004970" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1666">
+<div class="thumbnail"><a href="./posts/blog_20251219_colus_cola_colum/colus_cola_colum.html" class="no-external">
 
+<p class="card-img-top"><img src="posts\blog_20251219_colus_cola_colum\chelifer.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/blog_20251219_colus_cola_colum/colus_cola_colum.html" class="no-external">-colus, -cola, and -colum</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Tm9tZW5jbGF0dXJl'); return false;">Nomenclature</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SUNaTg=='); return false;">ICZN</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/blog_20251219_colus_cola_colum/colus_cola_colum.html" class="no-external">
+（我還沒時間校稿，先將就看…）
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/blog_20251219_colus_cola_colum/colus_cola_colum.html" class="no-external">
+<div class="listing-date">
+2025-12-27
+</div>
+<div class="listing-author">
+Chih-Ting Hsu
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
